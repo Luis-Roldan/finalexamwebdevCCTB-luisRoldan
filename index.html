@@ -9,6 +9,43 @@
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <h1>Fun Web App</h1>
+            <p>Interactive components built with HTML, CSS, and JavaScript</p>
+        </header>
+
+        <!-- Click Counter Section -->
+        <section class="counter-section">
+            <h2>Click Counter</h2>
+            <div class="counter-controls">
+                <button id="decrementBtn" class="btn">-</button>
+                <div id="countDisplay" class="count-display">0</div>
+                <button id="incrementBtn" class="btn">+</button>
+            </div>
+        </section>
+
+        <!-- Color Changer Section -->
+        <section class="color-section">
+            <h2>Color Box</h2>
+            <div id="colorBox" class="color-box"></div>
+            <button id="changeColorBtn" class="btn">Change Color</button>
+        </section>
+
+        <!-- Quote Generator Section -->
+        <section class="quote-section">
+            <h2>Motivational Quote</h2>
+            <button id="generateQuoteBtn" class="btn">Show Random Quote</button>
+            <div id="quoteDisplay" class="quote-display">
+                Click the button to see a motivational quote!
+            </div>
+        </section>
+
+        <!-- Bonus: Dark Mode Toggle -->
+        <section class="theme-section">
+            <button id="darkModeBtn" class="btn theme-btn">🌙 Dark Mode</button>
+        </section>
+    </div>
 
     <script src="script.js"></script>
 </body>
